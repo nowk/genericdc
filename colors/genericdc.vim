@@ -25,7 +25,7 @@ hi Error        ctermfg=9   ctermbg=NONE
 hi TODO         ctermfg=11  ctermbg=NONE
 hi linenr       ctermfg=236 ctermbg=234
 
-hi Visual                   ctermbg=233
+hi Visual                   ctermbg=237 cterm=italic
 " hi cursorline               ctermbg=236
 
 hi SpecialKey      ctermfg=235 ctermbg=NONE
@@ -60,3 +60,4 @@ hi link Debug		        Special
 
 " javascript (ala vim-javascript-syntax)
 hi javaScriptFuncArg ctermfg=244
+
