@@ -7,10 +7,11 @@ endif
 
 let g:colors_name = "genericdc"
 
-hi Normal       ctermfg=249 ctermbg=234
-hi Comment      ctermfg=237 ctermbg=NONE cterm=italic
+hi Normal       ctermfg=251 ctermbg=234
+hi Special      ctermfg=253 ctermbg=NONE
+hi Comment      ctermfg=238 ctermbg=NONE cterm=italic
 hi Constant     ctermfg=249 ctermbg=NONE
-hi String       ctermfg=75  ctermbg=NONE
+hi String       ctermfg=110 ctermbg=NONE
 hi Number       ctermfg=167 ctermbg=NONE
 hi htmlTagName  ctermfg=249 ctermbg=NONE
 hi Identifier   ctermfg=239 ctermbg=NONE
@@ -25,7 +26,7 @@ hi Error        ctermfg=9   ctermbg=NONE
 hi TODO         ctermfg=11  ctermbg=NONE
 hi linenr       ctermfg=236 ctermbg=234
 
-hi Visual                   ctermbg=237 cterm=italic
+hi Visual                   ctermbg=232 cterm=italic
 " hi cursorline               ctermbg=236
 
 hi SpecialKey      ctermfg=235 ctermbg=NONE
@@ -59,5 +60,8 @@ hi link Debug		        Special
 " sytnax specific
 
 " javascript (ala vim-javascript-syntax)
-hi javaScriptFuncArg ctermfg=244
+hi javaScriptFuncArg ctermfg=244 ctermbg=NONE
+hi javaScriptBraces                           cterm=NONE
+
+hi link javaScriptDocTags Comment
 
