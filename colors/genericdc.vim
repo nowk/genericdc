@@ -32,6 +32,7 @@ hi Visual       ctermfg=251 ctermbg=237 cterm=italic
 hi SpecialKey      ctermfg=235 ctermbg=NONE
 hi ExtraWhitespace             ctermbg=196
 " hi NonText         ctermfg=254 ctermbg=NONE
+hi MatchParen      ctermfg=253 ctermbg=242
 
 match ExtraWhitespace /\s\+$/
 
