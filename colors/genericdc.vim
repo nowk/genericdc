@@ -66,3 +66,22 @@ hi javaScriptBraces                           cterm=NONE
 
 hi link javaScriptDocTags Comment
 
+
+" go (ala vim-go)
+hi gotypes ctermfg=221 ctermbg=NONE cterm=italic
+
+hi goDirective ctermfg=243 ctermbg=NONE cterm=italic
+hi goTodo      ctermfg=202 ctermbg=NONE cterm=italic
+
+hi link goType         gotypes
+hi link goSignedInts   gotypes
+hi link goUnsignedInts gotypes
+hi link goFloats       gotypes
+hi link goComplexes    gotypes
+
+hi goOperator  ctermfg=242
+hi goFunction  ctermfg=245 ctermbg=NONE cterm=italic
+hi goMethod    ctermfg=250 ctermbg=NONE cterm=NONE
+hi goStruct    ctermfg=245 ctermbg=NONE cterm=NONE
+hi goStructDef ctermfg=245 ctermbg=NONE cterm=italic
+
