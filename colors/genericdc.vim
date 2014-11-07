@@ -7,29 +7,32 @@ endif
 
 let g:colors_name = "genericdc"
 
-hi Normal       guifg=#c6c6c6 guibg=#1c1c1c            ctermfg=251 ctermbg=234
-hi Special      guifg=#dadada guibg=NONE               ctermfg=253 ctermbg=NONE
-hi Comment      guifg=#444444 guibg=NONE    gui=italic ctermfg=238 ctermbg=NONE cterm=italic
-hi Constant     guifg=#b2b2b2 guibg=NONE               ctermfg=249 ctermbg=NONE
-hi String       guifg=#87afd7 guibg=NONE               ctermfg=110 ctermbg=NONE
-hi Number       guifg=#d75f5f guibg=NONE               ctermfg=167 ctermbg=NONE
-hi htmlTagName  guifg=#b2b2b2 guibg=NONE               ctermfg=249 ctermbg=NONE
-hi Identifier   guifg=#4e4e4e guibg=NONE               ctermfg=239 ctermbg=NONE
-hi Statement    guifg=#767676 guibg=NONE    gui=NONE   ctermfg=243 ctermbg=NONE cterm=NONE
-hi Boolean      guifg=#767676 guibg=NONE    gui=NONE   ctermfg=243 ctermbg=NONE cterm=NONE
-hi PreProc      guifg=#e4e4e4 guibg=NONE               ctermfg=254 ctermbg=NONE
-hi Type         guifg=#b2b2b2 guibg=NONE               ctermfg=249 ctermbg=NONE
-hi Function     guifg=#585858 guibg=NONE    gui=italic ctermfg=240 ctermbg=NONE cterm=italic
-hi Repeat       guifg=#808080 guibg=NONE               ctermfg=244 ctermbg=NONE
-hi Operator     guifg=#b2b2b2 guibg=NONE               ctermfg=249 ctermbg=NONE
-hi Error        guifg=#ff0000 guibg=NONE               ctermfg=9   ctermbg=NONE
-hi TODO         guifg=#ff5f00 guibg=NONE    gui=italic ctermfg=202 ctermbg=NONE cterm=italic
-hi linenr       guifg=#303030 guibg=#1c1c1c            ctermfg=236 ctermbg=234
+hi Normal       ctermfg=251 ctermbg=235
+hi Special      ctermfg=253 ctermbg=NONE
+hi Comment      ctermfg=239 ctermbg=NONE cterm=italic
+hi Constant     ctermfg=249 ctermbg=NONE
+hi String       ctermfg=110 ctermbg=NONE
+hi Number       ctermfg=167 ctermbg=NONE
+hi htmlTagName  ctermfg=249 ctermbg=NONE
+hi Identifier   ctermfg=239 ctermbg=NONE
+hi Statement    ctermfg=243 ctermbg=NONE cterm=NONE
+hi Boolean      ctermfg=243 ctermbg=NONE cterm=NONE
+hi PreProc      ctermfg=254 ctermbg=NONE
+hi Type         ctermfg=249 ctermbg=NONE
+hi Function     ctermfg=240 ctermbg=NONE cterm=italic
+hi Repeat       ctermfg=244 ctermbg=NONE
+hi Operator     ctermfg=249 ctermbg=NONE
+hi Error        ctermfg=9   ctermbg=NONE
+hi TODO         ctermfg=202 ctermbg=NONE cterm=italic
+hi linenr       ctermfg=238 ctermbg=235
+hi CursorLineNR ctermfg=241 ctermbg=234
 
-hi Visual          guifg=#c6c6c6 guibg=#3a3a3a gui=italic ctermfg=251 ctermbg=237 cterm=italic
-hi SpecialKey      guifg=#262626 guibg=NONE               ctermfg=235 ctermbg=NONE
-hi ExtraWhitespace               guibg=#ff0000                        ctermbg=196
-hi MatchParen      guifg=#dadada guibg=#666666            ctermfg=253 ctermbg=242
+hi Visual          ctermfg=251 ctermbg=237 cterm=italic
+hi SpecialKey      ctermfg=236 ctermbg=NONE
+hi ExtraWhitespace             ctermbg=196
+hi MatchParen      ctermfg=253 ctermbg=242
+hi Pmenu           ctermfg=251 ctermbg=237
+hi PmenuSel        ctermfg=235 ctermbg=111
 
 match ExtraWhitespace /\s\+$/
 
@@ -58,15 +61,15 @@ hi link Debug		        Special
 " sytnax specific
 
 " javascript (ala vim-javascript-syntax)
-hi javaScriptFuncArg guifg=#808080 guibg=NONE          ctermfg=244 ctermbg=NONE
-hi javaScriptBraces                           gui=NONE                          cterm=NONE
+hi javaScriptFuncArg ctermfg=244 ctermbg=NONE
+hi javaScriptBraces                           cterm=NONE
 
 hi link javaScriptDocTags Comment
 
 
 " go (ala vim-go)
-hi gotypes     guifg=#ffd75f guibg=NONE gui=italic ctermfg=221 ctermbg=NONE cterm=italic
-hi goDirective guifg=#767676 guibg=NONE gui=italic ctermfg=243 ctermbg=NONE cterm=italic
+hi gotypes     ctermfg=221 ctermbg=NONE cterm=italic
+hi goDirective ctermfg=243 ctermbg=NONE cterm=italic
 
 hi link goTodo         TODO
 hi link goType         gotypes
@@ -75,9 +78,10 @@ hi link goUnsignedInts gotypes
 hi link goFloats       gotypes
 hi link goComplexes    gotypes
 
-hi goOperator  guifg=#666666                       ctermfg=242
-hi goFunction  guifg=#8a8a8a guibg=NONE gui=italic ctermfg=245 ctermbg=NONE cterm=italic
-hi goMethod    guifg=#bcbcbc guibg=NONE            ctermfg=250 ctermbg=NONE cterm=NONE
-hi goStruct    guifg=#8a8a8a guibg=NONE            ctermfg=245 ctermbg=NONE cterm=NONE
-hi goStructDef guifg=#8a8a8a guibg=NONE gui=italic ctermfg=245 ctermbg=NONE cterm=italic
+hi goOperator  ctermfg=242
+hi goFunction  ctermfg=245 ctermbg=NONE cterm=italic
+hi goMethod    ctermfg=250 ctermbg=NONE cterm=NONE
+hi goStruct    ctermfg=245 ctermbg=NONE cterm=NONE
+hi goStructDef ctermfg=245 ctermbg=NONE cterm=italic
+
 
