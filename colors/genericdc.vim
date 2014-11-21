@@ -34,6 +34,8 @@ hi MatchParen      ctermfg=253 ctermbg=242
 hi Pmenu           ctermfg=251 ctermbg=237
 hi PmenuSel        ctermfg=235 ctermbg=111
 
+hi ColorColumn ctermbg=236
+
 match ExtraWhitespace /\s\+$/
 
 hi link character	      constant
