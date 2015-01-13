@@ -29,6 +29,7 @@ hi CursorLineNR ctermfg=241 ctermbg=234
 
 hi Visual          ctermfg=251 ctermbg=237 cterm=italic
 hi SpecialKey      ctermfg=236 ctermbg=NONE
+hi NonText         ctermfg=236 ctermbg=NONE
 hi ExtraWhitespace             ctermbg=196
 hi MatchParen      ctermfg=253 ctermbg=242
 hi Pmenu           ctermfg=251 ctermbg=237
@@ -64,6 +65,7 @@ hi link Debug		        Special
 
 " javascript (ala vim-javascript-syntax)
 hi javaScriptFuncArg ctermfg=244 ctermbg=NONE
+hi javaScriptFuncExp ctermfg=244
 hi javaScriptBraces                           cterm=NONE
 
 hi link javaScriptDocTags Comment
