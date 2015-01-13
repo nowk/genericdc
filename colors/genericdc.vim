@@ -84,7 +84,7 @@ hi link goComplexes    gotypes
 
 hi goOperator  ctermfg=242
 hi goFunction  ctermfg=245 ctermbg=NONE cterm=italic
-hi goMethod    ctermfg=250 ctermbg=NONE cterm=NONE
+hi goMethod    ctermfg=245 ctermbg=NONE cterm=NONE
 hi goStruct    ctermfg=245 ctermbg=NONE cterm=NONE
 hi goStructDef ctermfg=245 ctermbg=NONE cterm=italic
 
