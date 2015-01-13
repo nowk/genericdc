@@ -13,7 +13,7 @@ hi Comment      ctermfg=247 ctermbg=NONE cterm=italic
 hi Constant     ctermfg=237 ctermbg=NONE
 hi String       ctermfg=68  ctermbg=NONE
 hi Number       ctermfg=196 ctermbg=NONE
-hi htmlTagName  ctermfg=249 ctermbg=NONE
+hi htmlTagName  ctermfg=235 ctermbg=NONE
 hi Identifier   ctermfg=239 ctermbg=NONE
 hi Statement    ctermfg=243 ctermbg=NONE cterm=NONE
 hi Boolean      ctermfg=243 ctermbg=NONE cterm=NONE
