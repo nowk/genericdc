@@ -15,8 +15,8 @@ hi String       ctermfg=68  ctermbg=NONE
 hi Number       ctermfg=196 ctermbg=NONE
 hi htmlTagName  ctermfg=235 ctermbg=NONE
 hi Identifier   ctermfg=239 ctermbg=NONE
-hi Statement    ctermfg=243 ctermbg=NONE cterm=NONE
-hi Boolean      ctermfg=243 ctermbg=NONE cterm=NONE
+hi Statement    ctermfg=242 ctermbg=NONE cterm=NONE
+hi Boolean      ctermfg=242 ctermbg=NONE cterm=NONE
 hi PreProc      ctermfg=244 ctermbg=NONE
 hi Type         ctermfg=239 ctermbg=NONE
 hi Function     ctermfg=240 ctermbg=NONE cterm=italic
@@ -73,7 +73,7 @@ hi link javaScriptDocTags Comment
 
 " go (ala vim-go)
 hi gotypes     ctermfg=172 ctermbg=NONE cterm=italic
-hi goDirective ctermfg=243 ctermbg=NONE cterm=italic
+hi goDirective ctermfg=242 ctermbg=NONE cterm=italic
 
 hi link goTodo         TODO
 hi link goType         gotypes
@@ -82,9 +82,13 @@ hi link goUnsignedInts gotypes
 hi link goFloats       gotypes
 hi link goComplexes    gotypes
 
-hi goOperator  ctermfg=242
-hi goFunction  ctermfg=239 ctermbg=NONE cterm=italic
-hi goMethod    ctermfg=243 ctermbg=NONE cterm=NONE
-hi goStruct    ctermfg=239 ctermbg=NONE cterm=NONE
-hi goStructDef ctermfg=237 ctermbg=NONE cterm=italic
+hi goOperator    ctermfg=242
+hi goBuiltins    ctermfg=27
+hi goDeclaration ctermfg=242
+hi goDeclType    ctermfg=242
+
+hi goFunction  ctermfg=242 ctermbg=NONE cterm=italic
+hi goMethod    ctermfg=242 ctermbg=NONE cterm=NONE
+hi goStruct    ctermfg=235 ctermbg=NONE cterm=NONE
+hi goStructDef ctermfg=235 ctermbg=NONE cterm=italic
 

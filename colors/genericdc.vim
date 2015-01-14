@@ -82,10 +82,13 @@ hi link goUnsignedInts gotypes
 hi link goFloats       gotypes
 hi link goComplexes    gotypes
 
-hi goOperator  ctermfg=242
-hi goFunction  ctermfg=245 ctermbg=NONE cterm=italic
-hi goMethod    ctermfg=245 ctermbg=NONE cterm=NONE
-hi goStruct    ctermfg=245 ctermbg=NONE cterm=NONE
-hi goStructDef ctermfg=245 ctermbg=NONE cterm=italic
+hi goOperator    ctermfg=242
+hi goBuiltins    ctermfg=39
+hi goDeclaration ctermfg=243
+hi goDeclType    ctermfg=243
 
+hi goFunction  ctermfg=243 ctermbg=NONE cterm=italic
+hi goMethod    ctermfg=243 ctermbg=NONE cterm=NONE
+hi goStruct    ctermfg=251 ctermbg=NONE cterm=NONE
+hi goStructDef ctermfg=251 ctermbg=NONE cterm=italic
 
