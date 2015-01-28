@@ -73,7 +73,7 @@ hi link javaScriptDocTags Comment
 
 " go (ala vim-go)
 hi gotypes     ctermfg=221 ctermbg=NONE cterm=italic
-hi goDirective ctermfg=243 ctermbg=NONE cterm=italic
+hi goDirective ctermfg=242 ctermbg=NONE cterm=italic
 
 hi link goTodo         TODO
 hi link goType         gotypes
@@ -84,8 +84,8 @@ hi link goComplexes    gotypes
 
 hi goOperator    ctermfg=242
 hi goBuiltins    ctermfg=39
-hi goDeclaration ctermfg=243
-hi goDeclType    ctermfg=243
+hi goDeclaration ctermfg=242
+hi goDeclType    ctermfg=242
 
 hi goFunction  ctermfg=243 ctermbg=NONE cterm=italic
 hi goMethod    ctermfg=243 ctermbg=NONE cterm=NONE
