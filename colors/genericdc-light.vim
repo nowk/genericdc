@@ -35,7 +35,7 @@ hi MatchParen      ctermfg=234 ctermbg=242
 hi Pmenu           ctermfg=250 ctermbg=237
 hi PmenuSel        ctermfg=255 ctermbg=75
 
-hi ColorColumn ctermbg=254
+hi ColorColumn             ctermbg=254
 
 match ExtraWhitespace /\s\+$/
 
@@ -92,3 +92,7 @@ hi goMethod    ctermfg=242 ctermbg=NONE cterm=NONE
 hi goStruct    ctermfg=235 ctermbg=NONE cterm=NONE
 hi goStructDef ctermfg=235 ctermbg=NONE cterm=italic
 
+
+" NerdTree
+hi link NERDTreeDir Special
+hi NERDTreeFile     ctermfg=241
