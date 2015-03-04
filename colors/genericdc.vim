@@ -92,3 +92,7 @@ hi goMethod    ctermfg=243 ctermbg=NONE cterm=NONE
 hi goStruct    ctermfg=251 ctermbg=NONE cterm=NONE
 hi goStructDef ctermfg=251 ctermbg=NONE cterm=italic
 
+
+" NerdTree
+hi link NERDTreeDir Special
+hi NERDTreeFile     ctermfg=246
