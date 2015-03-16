@@ -7,7 +7,7 @@ endif
 
 let g:colors_name = "genericdc-light"
 
-hi Normal       ctermfg=235 ctermbg=254
+hi Normal       ctermfg=235 ctermbg=255
 hi Special      ctermfg=234 ctermbg=NONE
 hi Comment      ctermfg=247 ctermbg=NONE cterm=italic
 hi Constant     ctermfg=237 ctermbg=NONE
@@ -23,17 +23,17 @@ hi Function     ctermfg=240 ctermbg=NONE cterm=italic
 hi Repeat       ctermfg=244 ctermbg=NONE
 hi Operator     ctermfg=239 ctermbg=NONE
 hi Error        ctermfg=9   ctermbg=NONE
-hi TODO         ctermfg=202 ctermbg=NONE cterm=italic
-hi linenr       ctermfg=250 ctermbg=254
+hi TODO         ctermfg=135 ctermbg=NONE cterm=italic
+hi linenr       ctermfg=250 ctermbg=255
 hi CursorLineNR ctermfg=246 ctermbg=234
 
-hi Visual          ctermfg=254 ctermbg=241 cterm=italic
-hi SpecialKey      ctermfg=254 ctermbg=NONE
-hi NonText         ctermfg=254 ctermbg=NONE
+hi Visual          ctermfg=255 ctermbg=241 cterm=italic
+hi SpecialKey      ctermfg=255 ctermbg=NONE
+hi NonText         ctermfg=255 ctermbg=NONE
 hi ExtraWhitespace             ctermbg=196
 hi MatchParen      ctermfg=234 ctermbg=242
 hi Pmenu           ctermfg=250 ctermbg=237
-hi PmenuSel        ctermfg=254 ctermbg=75
+hi PmenuSel        ctermfg=255 ctermbg=75
 
 hi ColorColumn             ctermbg=253
 
@@ -72,7 +72,7 @@ hi link javaScriptDocTags Comment
 
 
 " go (ala vim-go)
-hi gotypes     ctermfg=214 ctermbg=NONE cterm=italic
+hi gotypes     ctermfg=208 ctermbg=NONE cterm=italic
 hi goDirective ctermfg=242 ctermbg=NONE cterm=italic
 
 hi link goTodo         TODO
