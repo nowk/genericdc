@@ -7,7 +7,7 @@ endif
 
 let g:colors_name = "genericdc"
 
-hi Normal       ctermfg=251 ctermbg=235
+hi Normal       ctermfg=251 ctermbg=NONE
 hi Special      ctermfg=253 ctermbg=NONE
 hi Comment      ctermfg=241 ctermbg=NONE cterm=italic
 hi Constant     ctermfg=249 ctermbg=NONE
